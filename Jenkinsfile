@@ -11,7 +11,7 @@ pipeline {
             steps {
                 script {
                         sh 'wellcome.py'
-                        sh 'click.py'
+                        sh 'Click.py'
                     }
                 }
             }
