@@ -8,9 +8,9 @@ pipeline {
         }
         stage('run python') {
             steps {
-                        sh 'wellcome.py'
-                        sh 'click.py'
-                    }
-                }
+                sh 'wellcome.py'
+                sh 'click.py'
+            }
+        }
     }
 }
